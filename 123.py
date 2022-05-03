@@ -20,7 +20,7 @@ def onMouse(event, x, y, flags, param):
         clicked = True
 
 
-cameraCapture = cv2.VideoCapture(1) # Подключаемся ( захватываем) нашу веб камеру.
+cameraCapture = cv2.VideoCapture(0) # Подключаемся ( захватываем) нашу веб камеру.
 # 0 — это индекс камеры, если их несколько то будет 0 или 1 и т.д.
 cv2.namedWindow('camera')
 cv2.setMouseCallback('camera', onMouse)

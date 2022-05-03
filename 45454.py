@@ -23,3 +23,4 @@ for i in range(len(sudo)):
             r += 1
     if r == len(que):
         print('It', sudo[i][0])
+
